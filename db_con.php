@@ -7,7 +7,7 @@ $DB_NAME = 'margarida';
 //
 $DB_HOST = 'margabatista.dk.mysql'; // server
 $DB_USER = 'margabatista_dk'; // database user
-$DB_PASS = 'Margabat0'; // database password
+$DB_PASS = 'password'; // database password
 $DB_NAME = 'margabatista_dk'; // database name
 
 $link = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
