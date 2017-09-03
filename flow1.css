@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; }
+ 
+* h1 {
+   padding: 30px;
+   text-align: center;
+   margin: 30px; }
+
+
+.main {
+  margin-top: 50px;
+  text-align: center;
+ }
+
+
+.logout {
+  background-color: midnightblue;
+  position: relative; }
+.logoutbutton {
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 45px;
+	background-color: #e7e7e7;
+	color: black;
+	padding: 15px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 900;
+	border-color: whitesmoke;
+    border: 3px;
+}
+	/*margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 55px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #e7e7e7;
+    border-color: whitesmoke;
+    border: 1px solid; } */
+
+.signup {
+  width: 400px;
+  height: 200px;
+  background-color: midnightblue;
+  position: relative; }
+  .signup button {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 55px;
+    padding: 5px;
+    text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    font-size: 25px;
+	font-weight: 900;
+    background-color: #e7e7e7;
+    border-color: whitesmoke;
+	border: 3px solid;
+	color: aliceblue;
+}
+
+.login {
+  width: 400px;
+  height: 200px;
+  background-color: midnightblue;
+  position: relative; }
+  .login button {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  	width: 150px;
+    height: 55px;
+	color: whitesmoke;
+	padding: 5px;
+    text-align: center;
+    font-size: 25px;
+	font-weight: 900;
+    background-color: #e7e7e7;
+    border-color: midnightblue;
+    border: 2px solid; 
+	color: aliceblue;
+}
+
+.link {
+  color: whitesmoke;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px; }
+
+
+/*h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	letter-spacing: normal;
+	margin-bottom: 20px;
+	color: black;
+	text-align:center;
+}
+
+h2 {font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	letter-spacing: normal;
+	margin-bottom: 20px;
+	color: black;
+	text-align:center;
+	
+}
+
+button {
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+	padding: 14px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 30px;
+	}
+*/
