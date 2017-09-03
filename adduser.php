@@ -22,17 +22,23 @@ if(!empty(filter_input(INPUT_POST, 'submit'))) {
 	// hash and salt the password
 	$pw = password_hash($pw, PASSWORD_DEFAULT); 
 	
-//	echo 'Creating user: '.$un.' => '.$pw;
+
+	
+	//MySQL check if username and password matches in database
 	
 	$sql = 'INSERT INTO users (username, pwhash) VALUES (?,?)';
 	$stmt = $link->prepare($sql);
 	$stmt->bind_param('ss', $un, $pw);
 	$stmt->execute();
 
+	
+	//	echo 'Creating user: '.$un.' => '.$pw
 
 	if ($stmt->affected_rows >0){
 		header("location: loggedin.php");
+		//user registered in the system
 		echo 'user ['.$un.'] is added :-)';
+		//echo that redirects directly to the desired page
 		echo ("<script>location.href = 'loggedin.php'; </script>");
 	}
 	else {

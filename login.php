@@ -28,10 +28,12 @@ if(!empty(filter_input(INPUT_POST, 'submit'))) {
 
 	while ($stmt->fetch()) {} // fill result variables
 	
+	//user loggedin in the system
 	if (password_verify($pw, $pwhash)){
 		echo 'logged in as user '.$uid;
 		$_SESSION['uid'] = $uid; header("location: secretinfo.php");
 		$_SESSION['un'] = $un;
+		//echo that redirects directly to the desired page
 		echo ("<script>location.href = 'secretinfo.php'; </script>");
 	}
 	else {
