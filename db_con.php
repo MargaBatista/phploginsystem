@@ -3,8 +3,8 @@
 $DB_USER = 'root';
 $DB_PASS = 'root';
 $DB_NAME = 'margarida';
-// $DB_PORT = '8889';*/
-//
+$DB_PORT = '8889';*/
+
 $DB_HOST = 'margabatista.dk.mysql'; // server
 $DB_USER = 'margabatista_dk'; // database user
 $DB_PASS = 'password'; // database password
